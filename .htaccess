@@ -1,0 +1,46 @@
+RewriteEngine On
+
+
+
+RewriteRule "gio-hang" "cart.php"
+RewriteRule "lien-he" "contact.php"
+RewriteRule "trang-chu" "index.php"
+RewriteRule "dang-nhap" "login.php"
+RewriteRule "xin-chao" "order.php"
+RewriteRule "chi-tiet-dat-hang" "orderdetails.php"
+RewriteRule "dat-hang" "payment.php"
+RewriteRule "thong-tin" "profile.php"
+RewriteRule "dang-ky" "regist.php"
+RewriteRule "tim-kiem-san-pham" "search.php"
+RewriteRule "cam-on-quy-khach" "success.php"
+RewriteRule "san-pham" "products.php"
+RewriteRule "cac-danh-muc" "allcategories.php"
+RewriteRule "cac-thuong-hieu" "allbrands.php"
+RewriteRule "danh-muc-tin-tuc" "allposts.php"
+RewriteRule "lich-su-dat-hang" "history.php"
+RewriteRule "danh-muc-club" "allclub.php"
+
+
+RewriteRule ^club/([-a-zA-Z0-9]+)/?$ clubdetails.php?url=$1 [NC,L]
+RewriteRule ^tin-tuc/([-a-zA-Z0-9]+)/?$ blogdetails.php?url=$1 [NC,L]
+RewriteRule ^thuong-hieu-([-a-zA-Z0-9]+)-([0-9]+)/?$ productbybrand.php?url=$1&&sanpham=$2 [NC,L]
+RewriteRule ^thuong-hieu-([-a-zA-Z0-9]+)/?$ productbybrand.php?url=$1 [NC,L]
+
+RewriteRule ^([-a-zA-Z0-9]+)-([0-9]+)/?$ productcategory.php?url=$1&&dieukien=$2 [NC,L]
+RewriteRule ^([-a-zA-Z0-9]+)/?$ productcategory.php?url=$1 [NC,L]
+
+RewriteRule ^([-a-zA-Z0-9]+)/([-a-zA-Z0-9]+)-([-a-zA-Z0-9]+)-([-a-zA-Z0-9]+)/?$ details.php?url=$1&&url_sp=$2&&color=$3&&size=$4 [NC,L]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

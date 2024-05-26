@@ -1,0 +1,1380 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+.right-head {
+  display: flex;
+}
+.right-head a {
+  padding: 20px 0 0 20px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 50px;
+}
+.container-header {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  z-index: 20;
+}
+.row-header {
+  padding: 25px 100px 0px 100px;
+}
+.slick-slide {
+  height: auto !important;
+}
+.bi.bi-cart {
+  position: relative;
+}
+.cart-item {
+  position: absolute;
+  left: 7px;
+  top: -8px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  background-color: transparent;
+}
+.row-header:hover {
+  background-color: #f5f5f5;
+  transition: all 0.4s ease;
+}
+
+.row-header .search-container {
+  float: right;
+  position: relative;
+}
+.row-header input[type="text"] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  width: 230px;
+  top: 28px;
+  outline: none;
+  right: 54px;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  position: absolute;
+}
+.row-header:hover input[type="text"] {
+  border-bottom: 1px solid #000;
+  color: #000;
+}
+.row-header input[type="text"]::placeholder {
+  color: #fff;
+}
+.row-header:hover input[type="text"]::placeholder {
+  color: #000;
+}
+.row-header:hover .right-head a {
+  color: #000 !important;
+}
+
+.row-header .search-container button {
+  float: right;
+  padding: 6px 10px;
+  font-size: 25px;
+  right: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  top: 28px;
+  border-radius: 3px;
+  background-color: transparent;
+  position: absolute;
+  color: #fff;
+}
+.row-header:hover .search-container button {
+  color: #000;
+  border: 1px solid #000;
+}
+.row-header:hover .dropbtn1 {
+  color: #000;
+}
+.res-cart {
+  display: none;
+}
+.res-login {
+  right: 0px;
+  position: absolute;
+  display: none;
+  padding-top: 14px;
+}
+
+.res-header {
+  display: none;
+}
+#scroll-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: none;
+  background-color: #f5f5f5;
+  z-index: 10;
+}
+
+.show-mid {
+  padding: 0 100px 0 100px;
+}
+.show-mid a {
+  text-decoration: none;
+  color: black;
+}
+.show-mid p {
+  text-align: right;
+}
+
+.tintuc {
+  padding: 25px 100px 25px 100px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+.col-lg.show-3-1 {
+  padding: 15px;
+}
+.footer {
+  padding: 25px 100px 25px 100px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.footer ul li,
+h4 {
+  list-style-type: none;
+  padding-left: 35px;
+}
+.footer ul li:hover {
+  padding-left: 40px;
+  transition: all 0.4s ease;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer2,
+.footer3,
+.footer4 {
+  border-left: 2px solid black;
+}
+.col-lg-3.show-4-1 {
+  position: relative;
+  padding: 20px;
+}
+.giamgia {
+  position: absolute;
+  top: 30px;
+  border-radius: 5px;
+  color: white;
+  left: 30px;
+  padding: 3px;
+  background-image: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+}
+
+.bi.bi-lightning-fill {
+  background-color: #f13500;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px 2px 5px;
+}
+
+.header-slider .slick-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  border: none;
+  color: black;
+  border-radius: 100rem;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  z-index: 30;
+}
+
+.header-slider {
+  width: 100%;
+}
+.header-slider .slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 34px;
+}
+.header-slider .slick-prev {
+  left: 10;
+}
+.header-slider .slick-next {
+  right: 10;
+}
+.fa-bars,
+.fa-times {
+  font-size: 25px;
+}
+
+.header-slider img {
+  filter: brightness(60%);
+}
+
+.daumucsp {
+  background: #428bca;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+  padding: 7px 25px 7px 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.khuvuctimkiem {
+  position: absolute;
+  top: 16px;
+  left: 18%;
+  display: none;
+  z-index: 999;
+}
+.form-timkiem {
+  position: absolute;
+  top: 25px;
+  left: 300px;
+  background: #fff;
+}
+#form-timkiem {
+  display: none;
+}
+
+.form-timkiem input {
+  border: none !important;
+  height: 40px;
+  width: 430px;
+  padding-left: 15px;
+  border-radius: 5px;
+  color: #000 !important;
+  background: #fff !important;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+}
+.form-timkiem button {
+  background: none;
+  color: #000;
+  border: none;
+  height: 97%;
+  padding: 0 10px 10px 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 75px;
+  top: 39px;
+  font-size: 18px;
+}
+.form-timkiem .dongtimkiem {
+  background: none;
+  color: #000;
+  border: none;
+  height: 97%;
+  padding: 12px;
+  cursor: pointer;
+  position: absolute;
+  right: 47px;
+  top: 27px;
+  font-size: 18px;
+}
+.opensearch {
+  position: relative;
+  cursor: pointer;
+}
+.menu-mobile {
+  width: 85%;
+  display: none;
+}
+.tensanpham {
+  font-size: 17px;
+}
+.h3-tieude {
+  height: 49px;
+  overflow: hidden;
+}
+.tieude {
+  max-height: 49px;
+}
+.div-mota {
+  height: 73px;
+  overflow: hidden;
+}
+.mota {
+  max-height: 73px;
+}
+.dropbtn {
+  color: #000;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.dropbtn1 {
+  color: #fff;
+  padding-top: 21px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  left: 40px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  position: unset;
+}
+
+.dropdown1 a:hover {
+  background-color: #ddd;
+}
+
+.show1 {
+  display: block;
+}
+
+.dropbtn2 {
+  color: #000;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: none;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropnew {
+  position: absolute;
+  right: 0;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown2 a:hover {
+  background-color: #ddd;
+}
+
+.show2 {
+  display: block;
+}
+
+/*----------------------------------- responsive 1200 -------------------------------- */
+@media screen and (min-width: 1069px) {
+  .col-lg-3.show-4-1 {
+    width: 25%;
+  }
+  .footer .col-lg-3 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+/*----------------------------------- responsive 986 -------------------------------- */
+
+@media screen and (max-width: 1068px) {
+  .hero {
+    padding-top: 80px;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .menu-pc {
+    display: none;
+  }
+  .res-cart,
+  .res-login {
+    display: block;
+  }
+  .khuvuctimkiem {
+    display: block;
+  }
+  .mid-header {
+    display: none;
+  }
+  .dangnhapne,
+  .giohangne {
+    color: #000;
+  }
+  .dangnhapne {
+  }
+  .right-head {
+    display: none;
+  }
+  .search-field .search-container {
+    display: none;
+  }
+
+  .row-header {
+    padding: 10px;
+    background-color: white;
+  }
+  .row-header .h3 {
+    padding-top: 25px;
+    color: black;
+  }
+  .row-header p > a {
+    color: black;
+  }
+  .row-header .col-4 {
+    width: 100%;
+  }
+  .res-header {
+    display: block;
+    color: white;
+    position: relative;
+    text-align: center;
+  }
+  .res-header img {
+    filter: brightness(75%);
+  }
+  .res-header h4 {
+    position: absolute;
+    top: 30%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+  }
+  .res-header h6 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .res-header p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .res-header a {
+    font-size: 13px;
+    padding: 10px 30px 10px 30px;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid white;
+  }
+
+  .res-header a:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+  }
+  .canphaian {
+    display: none;
+  }
+  .col-lg-3.show-4-1 {
+    width: 50%;
+  }
+  .show-mid {
+    padding: 0px 0px 10px 0px;
+  }
+  .footer .col-lg-3 {
+    width: 50%;
+  }
+  .footer {
+    padding: 10px 40px 10px 40px;
+  }
+  .footer2,
+  .footer3,
+  .footer4 {
+    border-left: none;
+  }
+  .container-slider-res {
+    padding-top: 130px;
+  }
+  .dropbtn {
+    color: #000;
+  }
+  .dropbtn2 {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-top: 80px;
+  }
+}
+
+/*----------------------------------- responsive 576 -------------------------------- */
+
+@media screen and (max-width: 576px) {
+  .hero {
+    padding-top: 55px;
+  }
+  .show-mid {
+    padding: 0px 15px 0px 15px;
+  }
+
+  .col-lg-3.show-4-1 {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .show-mid h4 {
+    font-size: 16px;
+  }
+  .tintuc {
+    padding: 7px 15px 7px 15px;
+  }
+  .col-lg.show-3-1 {
+    padding-top: 10px;
+  }
+  .footer .col-lg-3 {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .footer {
+    padding: 7px 15px 7px 15px;
+  }
+  .footer2,
+  .footer3,
+  .footer4 {
+    border-top: 2px solid black;
+  }
+  .khuvuctimkiem {
+    left: 22%;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .container-header {
+    top: 45px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .res-header h4 {
+    font-size: 16px;
+  }
+  .res-header h6 {
+    font-size: 13px;
+  }
+  .res-header a {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+  .daumucsp {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .res-header h4 {
+    font-size: 14px;
+  }
+  .res-header h6 {
+    font-size: 11px;
+  }
+  .res-header a {
+    font-size: 11px;
+    padding: 7px 14px;
+  }
+  .container-slider-res {
+    padding-top: 110px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .daumucsp {
+    font-size: 12px;
+  }
+  .khuvuctimkiem {
+    left: 24%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .daumucsp {
+    font-size: 9px;
+  }
+  .form-timkiem {
+    position: absolute;
+    top: 15px;
+    left: 240px;
+    background: #fff;
+  }
+  #form-timkiem {
+    display: none;
+  }
+  .container-slider-res {
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 391px) {
+  .res-header h4 {
+    font-size: 12px;
+  }
+  .res-header h6 {
+    font-size: 9px;
+  }
+  .res-header a {
+    font-size: 11px;
+    padding: 7px 9px;
+  }
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 890px;
+}
+.toggle,
+[id^="drop"] {
+  display: none;
+}
+/* Giving a background-color to the nav container. */
+nav {
+  margin: 0;
+  padding-top: 20px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+/* Positioning the navigation items inline */
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+}
+
+nav ul > li:hover .ul12 {
+  border-top: 2px solid rgba(51, 51, 51, 0.2);
+}
+nav ul li:hover .bi.bi-caret-down-fill {
+  transform: rotate(180deg);
+  transition: all 0.4s ease;
+  color: #fff;
+}
+.row-header:hover nav a {
+  color: #000;
+}
+/* Styling the links */
+nav a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+nav ul li ul li {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+/* Background color change on Hover */
+nav a:hover {
+}
+nav ul ul li a {
+  color: #fff !important;
+  padding: 8px 15px;
+  font-size: 15px;
+  background-color: #4da6c4;
+  text-transform: none;
+}
+nav ul ul li a:hover {
+  color: #4da6c4 !important;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+nav ul ul ul li a {
+  color: #fff !important;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #87ceeb;
+  text-transform: none;
+}
+nav ul ul ul li a:hover {
+  color: #87ceeb !important;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 45px;
+  background-color: white;
+}
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+nav ul li:hover {
+  background: #00688b;
+  transition: all 0.4s ease-in-out;
+}
+nav ul ul li:hover,
+nav ul ul ul li:hover {
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+}
+nav ul li:hover a {
+  color: #fff !important;
+  transition: all 0.4s ease-in-out;
+}
+nav ul li:hover .bi-chevron-down {
+  color: #fff !important;
+  transition: all 0.4s ease-in-out;
+}
+nav ul ul li:hover > ul {
+  display: inherit;
+}
+nav ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  background-color: white;
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+nav ul ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after {
+  content: "";
+}
+li > a:only-child:after {
+  content: "";
+}
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width: 1068px) {
+  nav {
+    margin: 0;
+    display: block;
+    background-color: white;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+  }
+  nav ul {
+    width: 100%;
+  }
+
+  /* Hide the navigation menu by default */
+  /* Also hide the  */
+  .toggle + a,
+  .menu {
+    display: none;
+  }
+
+  .row-header a {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  /* Stylinf the toggle lable */
+  .toggle {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .toggle:hover {
+    cursor: pointer;
+  }
+
+  nav ul > li:hover {
+    border-bottom: none;
+  }
+  nav ul > li:hover .ul12 {
+    border-top: none;
+  }
+  nav ul li ul li {
+    border-bottom: none;
+  }
+
+  /* Display Dropdown when clicked on Parent Lable */
+  [id^="drop"]:checked + ul {
+    display: block;
+  }
+
+  /* Change menu item's width to 100% */
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+  /* Hide Dropdowns by Default */
+  nav ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+    /* has to be the same number as the "line-height" of "nav a" */
+  }
+  .toggle3 {
+    border-bottom: 1px solid #fff;
+  }
+  .mobile-type {
+    background-color: #4da6c4;
+  }
+  .mobile-type:hover {
+    background-color: #fff;
+  }
+  .mobile-type:hover a {
+    color: #4da6c4 !important;
+    background-color: #fff;
+  }
+  .mobile-type:hover i {
+    color: #4da6c4 !important;
+    background-color: #fff;
+  }
+
+  /* Hide menus on hover */
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul {
+    display: none;
+  }
+
+  /* Fisrt Tier Dropdown */
+  nav ul ul li {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  nav ul ul li a {
+    margin-left: 0;
+    padding: 4px 40px;
+    border-bottom: 1px solid #eeeee4;
+  }
+
+  nav ul ul ul .toggle {
+    background-color: #255783;
+  }
+
+  /* Hide Dropdowns by Default */
+  nav ul ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+    /* has to be the same number as the "line-height" of "nav a" */
+  }
+
+  /* Fisrt Tier Dropdown */
+  nav ul ul ul li {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  nav ul ul ul li a {
+    margin-left: 0;
+    padding: 4px 40px;
+    border-bottom: 1px solid #eeeee4;
+  }
+}
+
+@media all and (max-width: 330px) {
+  nav ul li {
+    display: block;
+    width: 94%;
+  }
+}
+
+/* nav scroll ------------------------------------------------------------------------*/
+.nav1 {
+  margin: 0;
+  padding-top: 0px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+.nav1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+.nav1 ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+/* Positioning the navigation items inline */
+.nav1 ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.nav1 ul > li:hover {
+}
+.nav1 ul > li:hover .ul12 {
+  border-top: 2px solid rgba(51, 51, 51, 0.2);
+}
+.nav1 ul > li:hover .fa.fa-chevron-down {
+  transform: rotate(180deg);
+  transition: all 0.4s ease;
+}
+
+/* Styling the links */
+.nav1 a {
+  display: block;
+  padding: 10px 15px;
+  color: #4da6c4;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.nav1 ul li ul li {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+.nav1 ul ul li a {
+  color: #4da6c4 !important;
+  padding: 8px 15px;
+  font-size: 15px;
+  background-color: #fff;
+  text-transform: none;
+}
+.nav1 ul ul li a:hover {
+  color: #fff !important;
+  background-color: #4da6c4;
+  transition: all 0.5s ease;
+}
+.nav1 ul ul ul li a {
+  color: #87ceeb !important;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #fff;
+  text-transform: none;
+}
+.nav1 ul ul ul li a:hover {
+  color: #fff !important;
+  background-color: #87ceeb;
+  transition: all 0.5s ease;
+}
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+.nav1 ul ul {
+  display: none;
+  position: absolute;
+  top: 47px;
+  background-color: white;
+}
+/* Display Dropdowns on Hover */
+.nav1 ul li:hover > ul {
+  display: inherit;
+}
+.nav1 ul li:hover {
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul ul li:hover,
+.nav1 ul ul ul li:hover {
+  background: #00688b;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul li:hover a {
+  color: #00688b !important;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul li:hover .bi-chevron-down {
+  color: #00688b !important;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul ul li:hover > ul {
+  display: inherit;
+}
+.nav1 ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  background-color: white;
+}
+/* Fisrt Tier Dropdown */
+.nav1 ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+.nav1 ul ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+header {
+  overflow: hidden;
+}
+
+.hero-text h2 {
+  margin-bottom: 50px;
+}
+
+.hero-text .hero {
+  position: relative;
+}
+
+.hero-text .hero .hero-slide a:hover span {
+  color: #033a71;
+}
+
+.btn-three {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+  font-size: 21px;
+}
+.btn-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+.btn-three:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+.btn-three::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2);
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.hero .hero-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top center;
+  filter: brightness(70%);
+}
+
+.hero .hero-slide .header-content {
+  top: 20%;
+  margin-left: 8rem;
+  max-width: 550px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.slide-content {
+  padding: 10px 20px 10px 0;
+}
+
+.slide-content .h1 {
+  font-size: 62px;
+}
+
+.btn-primary {
+  background-color: #5302fe;
+  border: #111;
+  border-radius: 0;
+}
+
+/** Text Animation **/
+
+@-webkit-keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUpSD {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUpSD {
+  -webkit-animation-name: fadeInUpSD;
+  animation-name: fadeInUpSD;
+}
+
+.slick-active .slide-content {
+  animation-name: fadeInUpSD;
+  animation-duration: 1s;
+  opacity: 1;
+  width: 100%;
+  padding: 10px 20px 30px 0;
+}
+
+/* Text Animation End **/
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-active button {
+  background: #d60e96;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+}
+
+.slick-dots li button::before {
+  font-size: 18px;
+  color: #fff;
+  opacity: 1;
+}
+.header-content p {
+  text-align: justify;
+  padding-top: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .hero-text .hero .hero-slide a {
+    padding-top: 0.8rem;
+  }
+
+  .hero-text .hero .hero-slide a span {
+    font-size: 20px;
+    margin-top: 0.5rem;
+  }
+  .hero .hero-slide .header-content {
+    top: 15%;
+    margin-left: 1rem;
+    max-width: 500px;
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero .hero-slide .header-content {
+    top: 15%;
+    margin-left: 1rem;
+    max-width: 360px;
+    width: 100%;
+    padding: 1rem;
+  }
+  .header-content h1 {
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .header-content p {
+    font-size: 15px;
+  }
+  .btn-three-black {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero .hero-slide .header-content {
+    top: 10%;
+    margin-left: 1rem;
+    max-width: 300px;
+    width: 100%;
+    padding: 1rem;
+  }
+  .header-content h1 {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .header-content p {
+    font-size: 13px;
+  }
+  .btn-three-black {
+    font-size: 13px;
+  }
+}
+@media (max-width: 330px) {
+  .hero .hero-slide .header-content {
+    top: 5%;
+    margin-left: 6px;
+    max-width: 250px;
+    width: 100%;
+    padding: 5px;
+  }
+  .header-content h1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .header-content p {
+    font-size: 12px;
+  }
+  .btn-three-black {
+    font-size: 12px;
+  }
+}

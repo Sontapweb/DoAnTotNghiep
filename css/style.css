@@ -1,0 +1,1281 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+.right-head {
+  display: flex;
+  padding-top: 33px;
+}
+.right-head a {
+  padding: 5px 0 0 20px;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  left: 50px;
+}
+.main-header {
+  padding: 25px 100px 0px 100px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e7e7e7;
+}
+.slick-slide {
+  height: auto !important;
+}
+.main-header .search-container {
+  float: right;
+  position: relative;
+}
+.main-header input[type="text"] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  width: 250px;
+  right: 54px;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(51, 51, 51, 0.2);
+  position: absolute;
+}
+.main-header .search-container button {
+  padding: 6px 10px;
+  right: 10px;
+  font-size: 24px;
+  border: 2px solid rgba(51, 51, 51, 0.2);
+  cursor: pointer;
+  border-radius: 3px;
+  position: absolute;
+}
+.bi.bi-cart {
+  position: relative;
+}
+.cart-item {
+  position: absolute;
+  left: 7px;
+  top: -8px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  background-color: transparent;
+  color: #000;
+}
+
+.res-cart {
+  display: none;
+}
+.res-login {
+  right: 0px;
+  position: absolute;
+  display: none;
+  padding-top: 14px;
+}
+.fa-bars,
+.fa-times {
+  font-size: 25px;
+}
+
+.daxuly {
+  padding: 2px 8px;
+  background: green;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.dangxuly {
+  padding: 2px 8px;
+  background: orangered;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.chuaxuly {
+  padding: 2px 8px;
+  background: #9c0d1b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.chuaxuly:hover,
+.dangxuly:hover,
+.daxuly:hover {
+  color: #fff;
+}
+.footer {
+  padding: 25px 100px 25px 100px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#scroll-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: none;
+  background-color: white;
+  z-index: 10;
+}
+
+.footer ul li,
+h4 {
+  list-style-type: none;
+  padding-left: 35px;
+}
+.footer ul li:hover {
+  padding-left: 40px;
+  transition: all 0.4s ease;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer2,
+.footer3,
+.footer4 {
+  border-left: 2px solid black;
+}
+.col-lg-3.show-4-1 {
+  position: relative;
+  padding: 20px;
+}
+.search-container {
+  padding: 30px 100px 30px 100px;
+}
+.search-container .show-3-1 {
+  padding-top: 20px;
+}
+.search-container .h5 {
+  padding-top: 13px;
+}
+.giamgia {
+  position: absolute;
+  top: 30px;
+  border-radius: 5px;
+  color: white;
+  left: 30px;
+  padding: 3px;
+  background-image: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+}
+
+.bi.bi-lightning-fill {
+  background-color: #f13500;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px 2px 5px;
+}
+
+.details-container {
+  padding: 30px;
+}
+.details-container .img-field {
+  padding-bottom: 30px;
+}
+.details-container .info-field {
+  padding: 30px 10px 10px 10px;
+}
+.details-container p {
+  padding: 10px;
+}
+
+.rightsidebar ul li {
+  list-style-type: none;
+  line-height: 60px;
+  border-bottom: 1px dotted black;
+}
+.rightsidebar ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+}
+.rightsidebar ul li:hover {
+  margin-left: 15px;
+  transition: all 0.4s ease;
+}
+.buyfield {
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #b8b8b8;
+  outline: none;
+}
+.info-field .btn.btn-danger {
+  color: white;
+  background: #e20c26;
+  border: none;
+  width: 100%;
+  margin: 10px 0 0 10px;
+}
+.info-field .btn.btn-danger:hover {
+  color: #e20c26;
+  font-weight: 600;
+  background: white;
+  border: 1px solid #e20c26;
+  transition: all 0.2s ease;
+}
+.info-field .btn.btn-cart {
+  color: white;
+  background: #2874a6;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+.info-field .btn.btn-cart:hover {
+  color: #2874a6;
+  font-weight: 600;
+  background: white;
+  border: 1px solid #2874a6;
+  transition: all 0.2s ease;
+}
+.item-slider img {
+  width: 100%;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  border-radius: 10px;
+}
+.item-slider {
+  padding: 0 10px 0 10px;
+}
+
+.product-slider .slick-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  border: none;
+  color: black;
+  border-radius: 100rem;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+}
+
+.product-slider .slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 34px;
+}
+.item-slider {
+  position: relative;
+}
+.zoom-slider .slick-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  border: none;
+  color: black;
+  border-radius: 100rem;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  z-index: 12;
+}
+
+.zoom-slider .slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 34px;
+}
+.zoom-slider {
+  position: relative;
+}
+.giamgia1 {
+  position: absolute;
+  top: 0;
+  left: 11px;
+  background-image: linear-gradient(-90deg, #ec1f1f 0%, #ff9c00 100%);
+  border-radius: 5px;
+  color: white;
+}
+
+.payment-container {
+  padding: 25px 200px 25px 200px;
+}
+.tendanhmuc {
+  background: #428bca;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 5px 30px 5px 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.chitietsp {
+  background: #428bca;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 30px 5px 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.slider-nav .slick-slide.slick-current.slick-active img {
+  border: 1px solid rgba(51, 51, 51, 0.2);
+}
+.tensanpham:hover a {
+  color: #428bca;
+}
+.btn-zoom {
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+}
+.btn-zoom:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease;
+}
+.khuvuctimkiem {
+  position: absolute;
+  top: 14px;
+  left: 18%;
+  display: none;
+  z-index: 999;
+}
+.form-timkiem {
+  position: absolute;
+  top: 35px;
+  left: 300px;
+  background: #fff;
+  z-index: 999;
+}
+#form-timkiem {
+  display: none;
+}
+
+.form-timkiem input {
+  border: 1px solid rgba(51, 51, 51, 0.2) !important;
+  height: 40px;
+  width: 430px;
+  padding-left: 15px;
+  border-radius: 5px;
+  color: #000 !important;
+  background: #fff !important;
+}
+.form-timkiem button {
+  background: none;
+  color: #000;
+  border: none;
+  height: 97%;
+  padding: 0 10px 10px 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 75px;
+  top: 12px;
+  font-size: 18px;
+}
+.form-timkiem .dongtimkiem {
+  background: none;
+  color: #000;
+  border: none;
+  height: 97%;
+  padding: 12px;
+  cursor: pointer;
+  position: absolute;
+  right: 47px;
+  top: 0px;
+  font-size: 18px;
+}
+.opensearch {
+  position: relative;
+  cursor: pointer;
+}
+.canphaian {
+  padding-top: 7px;
+}
+.menu-mobile {
+  width: 85%;
+  display: none;
+}
+.tintuc-details {
+  padding: 30px 80px 30px 80px;
+}
+.tensanpham {
+  font-size: 17px;
+}
+.p-tensp {
+  padding-top: 20px;
+}
+.col-links {
+  display: flex;
+  padding: 0 0 0 10px;
+}
+.col-links .bi-house-door {
+  color: #255783;
+}
+.col-links a {
+  font-weight: 600;
+  color: #255783;
+  padding: 6px 10px;
+}
+.col-links span {
+  font-weight: 600;
+  color: #255783;
+  padding: 6px 10px;
+}
+.col-links a:first-child {
+  padding-left: 0;
+}
+.h3-tieude {
+  height: 49px;
+  overflow: hidden;
+}
+.tieude {
+  max-height: 49px;
+}
+.div-mota {
+  height: 79px;
+  overflow: hidden;
+}
+.mota {
+  max-height: 79px;
+}
+.label-mau {
+  padding: 6px 12px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.label-mau-active {
+  background-color: #000;
+  color: #fff !important;
+}
+.table-color td {
+  padding: 5px;
+}
+.dropbtn {
+  color: #000;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.dropbtn1 {
+  color: #000;
+  padding-top: 6px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  left: 40px;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  position: unset;
+}
+
+.dropdown1 a:hover {
+  background-color: #ddd;
+}
+
+.show1 {
+  display: block;
+}
+
+.dropbtn2 {
+  color: #000;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: none;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+.dropnew {
+  position: absolute;
+  right: 0;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown2 a:hover {
+  background-color: #ddd;
+}
+
+.show2 {
+  display: block;
+}
+
+@media screen and (min-width: 1069px) {
+  .footer .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-3.show-4-1 {
+    width: 25%;
+  }
+}
+
+/*----------------------------------- responsive 1200 -------------------------------- */
+
+@media screen and (max-width: 1200px) {
+}
+
+/*----------------------------------- responsive 986 -------------------------------- */
+
+@media screen and (max-width: 1068px) {
+  .hero {
+    padding-top: 130px;
+  }
+  .menu-mobile {
+    display: block;
+  }
+  .menu-pc {
+    display: none;
+  }
+  .khuvuctimkiem {
+    display: block;
+  }
+  .canphaian {
+    display: none;
+  }
+  .right-head {
+    display: none;
+  }
+
+  .main-header {
+    padding: 25px;
+    background-color: #f5f5f5;
+  }
+  .main-header .h3 {
+    padding-top: 15px;
+  }
+  .main-header .col-4 {
+    width: 100%;
+  }
+  .footer .col-lg-3 {
+    width: 50%;
+  }
+  .footer {
+    padding: 10px 40px 10px 40px;
+  }
+  .search-field {
+    display: none;
+  }
+  .footer2,
+  .footer3,
+  .footer4 {
+    border-left: none;
+  }
+  .footer3 {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .footer2 {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+  }
+  .col-lg-3.show-4-1 {
+    width: 50%;
+  }
+  .payment-container {
+    padding: 10px 80px 10px 80px;
+  }
+  .payment-container .col-lg-6 {
+    padding-top: 30px;
+  }
+  .rightsidebar {
+    display: none;
+  }
+  .tendanhmuc {
+    font-size: 21px;
+  }
+  .chitietsp {
+    font-size: 18px;
+  }
+  .dropbtn {
+    display: none;
+  }
+  .dropbtn2 {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+  .res-cart,
+  .res-login {
+    display: block;
+  }
+}
+
+/*----------------------------------- responsive 576 -------------------------------- */
+
+@media screen and (max-width: 576px) {
+  .details-container {
+    padding: 30px 15px;
+  }
+  .tintuc-details {
+    padding: 20px 15px;
+  }
+  .main-header {
+    padding: 10px;
+  }
+
+  .footer .col-lg-3 {
+    padding-top: 10px;
+    width: 100%;
+  }
+  .footer {
+    padding: 7px 15px 7px 15px;
+  }
+  .footer2,
+  .footer3,
+  .footer4 {
+    border-top: 2px solid black;
+  }
+  .footer2,
+  .footer3,
+  .footer4 {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  .col-lg-3.show-4-1 {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .search-container {
+    padding: 7px 15px 7px 15px;
+  }
+  .payment-container {
+    padding: 10px 40px 10px 40px;
+  }
+  .tendanhmuc {
+    font-size: 18px;
+  }
+  .chitietsp {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .daumucsp {
+    font-size: 9px;
+  }
+  .main-header input[type="text"] {
+    width: 170px;
+  }
+  .khuvuctimkiem {
+    left: 22%;
+  }
+  .form-timkiem {
+    position: absolute;
+    top: 30px;
+    left: 260px;
+    background: #fff;
+  }
+  #form-timkiem {
+    display: none;
+  }
+  .container-slider-res {
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .khuvuctimkiem {
+    left: 24%;
+  }
+  .form-timkiem {
+    position: absolute;
+    top: 35px;
+    left: 230px;
+    background: #fff;
+  }
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 890px;
+}
+.toggle,
+[id^="drop"] {
+  display: none;
+}
+/* Giving a background-color to the nav container. */
+nav {
+  margin: 0;
+  padding-top: 20px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+nav ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+/* Positioning the navigation items inline */
+nav ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+}
+
+nav ul > li:hover .ul12 {
+  border-top: 2px solid rgba(51, 51, 51, 0.2);
+}
+nav ul li:hover .bi.bi-caret-down-fill {
+  transform: rotate(180deg);
+  transition: all 0.4s ease;
+  color: #fff;
+}
+.row-header:hover nav a {
+  color: #000;
+}
+/* Styling the links */
+nav a {
+  display: block;
+  padding: 10px 15px;
+  color: #4da6c4;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+nav ul li ul li {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+/* Background color change on Hover */
+nav a:hover {
+}
+nav ul ul li a {
+  color: #fff !important;
+  padding: 8px 15px;
+  font-size: 15px;
+  background-color: #4da6c4;
+  text-transform: none;
+}
+nav ul ul li a:hover {
+  color: #4da6c4 !important;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+nav ul ul ul li a {
+  color: #fff !important;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #87ceeb;
+  text-transform: none;
+}
+nav ul ul ul li a:hover {
+  color: #87ceeb !important;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 45px;
+  background-color: white;
+  z-index: 20;
+}
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display: inherit;
+}
+nav ul li:hover {
+  background: #00688b;
+  transition: all 0.4s ease-in-out;
+}
+nav ul ul li:hover,
+nav ul ul ul li:hover {
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+}
+nav ul li:hover a {
+  color: #fff !important;
+  transition: all 0.4s ease-in-out;
+}
+nav ul li:hover .bi-chevron-down {
+  color: #fff !important;
+  transition: all 0.4s ease-in-out;
+}
+nav ul ul li:hover > ul {
+  display: inherit;
+}
+nav ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  background-color: white;
+}
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+nav ul ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+
+/* Change ' +' in order to change the Dropdown symbol */
+li > a:after {
+  content: "";
+}
+li > a:only-child:after {
+  content: "";
+}
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width: 1068px) {
+  nav {
+    margin: 0;
+    display: block;
+    background-color: white;
+    border-top: 2px solid #000;
+    padding-top: 10px;
+  }
+  nav ul {
+    width: 100%;
+  }
+
+  /* Hide the navigation menu by default */
+  /* Also hide the  */
+  .toggle + a,
+  .menu {
+    display: none;
+  }
+
+  .row-header a {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  /* Stylinf the toggle lable */
+  .toggle {
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .toggle:hover {
+    cursor: pointer;
+  }
+
+  nav ul > li:hover {
+    border-bottom: none;
+  }
+  nav ul > li:hover .ul12 {
+    border-top: none;
+  }
+  nav ul li ul li {
+    border-bottom: none;
+  }
+
+  /* Display Dropdown when clicked on Parent Lable */
+  [id^="drop"]:checked + ul {
+    display: block;
+  }
+
+  /* Change menu item's width to 100% */
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+  /* Hide Dropdowns by Default */
+  nav ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+    /* has to be the same number as the "line-height" of "nav a" */
+  }
+  .toggle3 {
+    border-bottom: 1px solid #fff;
+  }
+  .mobile-type {
+    background-color: #4da6c4;
+  }
+  .mobile-type:hover {
+    background-color: #fff;
+  }
+  .mobile-type:hover a {
+    color: #4da6c4 !important;
+    background-color: #fff;
+  }
+  .mobile-type:hover i {
+    color: #4da6c4 !important;
+    background-color: #fff;
+  }
+
+  /* Hide menus on hover */
+  nav ul ul li:hover > ul,
+  nav ul li:hover > ul {
+    display: none;
+  }
+
+  /* Fisrt Tier Dropdown */
+  nav ul ul li {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  nav ul ul li a {
+    margin-left: 0;
+    padding: 4px 40px;
+    border-bottom: 1px solid #eeeee4;
+  }
+
+  nav ul ul ul .toggle {
+    background-color: #255783;
+  }
+
+  /* Hide Dropdowns by Default */
+  nav ul ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+    /* has to be the same number as the "line-height" of "nav a" */
+  }
+
+  /* Fisrt Tier Dropdown */
+  nav ul ul ul li {
+    display: block;
+    width: 100%;
+    border: none;
+  }
+
+  nav ul ul ul li a {
+    margin-left: 0;
+    padding: 4px 40px;
+    border-bottom: 1px solid #eeeee4;
+  }
+}
+
+@media all and (max-width: 330px) {
+  nav ul li {
+    display: block;
+    width: 94%;
+  }
+}
+
+/* nav scroll ------------------------------------------------------------------------*/
+.nav1 {
+  margin: 0;
+  padding-top: 0px;
+  background-color: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+.nav1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+.nav1 ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+/* Positioning the navigation items inline */
+.nav1 ul li {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.nav1 ul > li:hover {
+}
+.nav1 ul > li:hover .ul12 {
+  border-top: 2px solid rgba(51, 51, 51, 0.2);
+}
+.nav1 ul > li:hover .fa.fa-chevron-down {
+  transform: rotate(180deg);
+  transition: all 0.4s ease;
+}
+
+/* Styling the links */
+.nav1 a {
+  display: block;
+  padding: 10px 15px;
+  color: #00688b;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.nav1 ul li ul li {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+.nav1 ul ul li a {
+  color: #fff !important;
+  padding: 8px 15px;
+  font-size: 15px;
+  background-color: #4da6c4;
+  text-transform: none;
+}
+.nav1 ul ul li a:hover {
+  color: #4da6c4 !important;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+.nav1 ul ul ul li a {
+  color: #87ceeb !important;
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #fff;
+  text-transform: none;
+}
+.nav1 ul ul ul li a:hover {
+  color: #fff !important;
+  background-color: #87ceeb;
+  transition: all 0.5s ease;
+}
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+.nav1 ul ul {
+  display: none;
+  position: absolute;
+  top: 47px;
+  background-color: white;
+}
+/* Display Dropdowns on Hover */
+.nav1 ul li:hover > ul {
+  display: inherit;
+}
+.nav1 ul li:hover {
+  background: #00688b;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul ul li:hover,
+.nav1 ul ul ul li:hover {
+  background: #00688b;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul li:hover a {
+  color: #fff !important;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul li:hover .bi-chevron-down {
+  color: #00688b !important;
+  transition: all 0.4s ease-in-out;
+}
+.nav1 ul ul li:hover > ul {
+  display: inherit;
+}
+.nav1 ul ul ul {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  background-color: white;
+}
+/* Fisrt Tier Dropdown */
+.nav1 ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+.nav1 ul ul ul li {
+  width: 220px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #000;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+
+.styled-input label {
+  color: #000;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+.input-container input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px #14304f;
+  color: #000;
+  border-radius: 4px;
+}
+
+.input-container input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+.input-container input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+.input-container textarea {
+  width: 100%;
+  min-height: 13em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.input-container input[type="checkbox"] + label {
+  color: #000;
+  font-style: italic;
+}
+
+.input-container input[type="checkbox"]:checked + label {
+  color: #000;
+  font-style: normal;
+}

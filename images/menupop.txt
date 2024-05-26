@@ -1,0 +1,22 @@
+buttonSearch.setOnClickListener {
+            val popupMenu = PopupMenu(this, buttonSearch)
+            popupMenu.menuInflater.inflate(R.menu.menu_popup, popupMenu.menu)
+            popupMenu.setOnMenuItemClickListener{item ->
+                when (item.itemId) {
+                    R.id.menuAge -> {
+                        val intent = Intent(this, AgeSearchActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }
+
+                    R.id.menuPhone -> {
+                        val intent = Intent(this, PhoneSearchActivity::class.java)
+                        startActivity(intent)
+                        true
+                    }
+
+                    else -> false
+                }
+            }
+            popupMenu.show()
+        }
